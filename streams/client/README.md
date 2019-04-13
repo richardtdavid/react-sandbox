@@ -1,5 +1,5 @@
 # Stream
-## A twitch like app building with react
+## A twitch like app built with react
 > To get started run whatever node package manager you have installed to get dependencies
 ```
 yarn install
