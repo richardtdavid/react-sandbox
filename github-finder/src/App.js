@@ -62,10 +62,10 @@ class App extends React.Component {
                   <Search searchUsers={this.searchUsers} 
                     clearUsers={this.clearUsers} 
                     showClear={users.length > 0 ? true : false}
-                    setAlerts={this.setAlert}/> 
+                    setAlerts={this.setAlert}
+                  /> 
 
                   <Users loading={loading} users={users}/>  
-                  
                 </Fragment>
               )} />
 
