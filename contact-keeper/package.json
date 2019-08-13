@@ -9,7 +9,7 @@
     "server": "nodemon server.js",
     "client": "yarn start --prefix client",
     "clientinstall": "yarn add --prefix client",
-    "dev": "concurrently \"yarn run server\" \"yarn run client\""
+    "dev": "concurrently \"yarn server\" \"yarn client\""
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
