@@ -6,7 +6,7 @@
   "description": "Contact Manager App",
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js",
+    "server": "nodemon server.js --ignore client",
     "client": "yarn start --prefix client",
     "clientinstall": "yarn add --prefix client",
     "dev": "concurrently \"yarn server\" \"yarn client\""
